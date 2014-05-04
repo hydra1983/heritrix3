@@ -86,14 +86,14 @@ http://maven.apache.org/guides/mini/guide-m1-m2.html
 	<pluginRepositories>
 		<pluginRepository>
 			<id>builds.archive.org,maven2</id>
-			<url>http://builds.archive.org/maven2</url>
+			<url>http://mvnrepository.qiniudn.com/</url>
 		</pluginRepository>
 	</pluginRepositories>
 
 	<repositories>
 		<repository>
 			<id>builds.archive.org,maven2</id>
-			<url>http://builds.archive.org/maven2</url>
+			<url>http://mvnrepository.qiniudn.com/</url>
 		</repository>
 	</repositories>
 
@@ -127,7 +127,6 @@ http://maven.apache.org/guides/mini/guide-m1-m2.html
 		<module>engine</module>
 		<module>dist</module>
 	</modules>
-
 
 	<distributionManagement>
 		<repository>
